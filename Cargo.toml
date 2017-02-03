@@ -1,0 +1,10 @@
+[package]
+name = "inet-diag"
+version = "0.1.0"
+authors = ["wfleming"]
+
+[dependencies]
+bincode = "0.6.1"
+rustc-serialize = "0.3.22"
+clap = "2.20.1"
+netlink-rs = {git = "https://github.com/william20111/netlink-rs.git"} 
